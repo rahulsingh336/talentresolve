@@ -5,7 +5,7 @@ jobs:
     steps:
       - checkout
       - node/install:
-          install-yarn: true
+          install-yarn: false
           node-version: latest
       - run: node --version
 orbs:
