@@ -8,6 +8,7 @@ jobs:
           install-yarn: false
           node-version: 8.15.1
       - run: node --version
+      - run: npm run build
 orbs:
   node: circleci/node@3.0.0
 version: 2.1
